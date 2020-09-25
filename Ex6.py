@@ -1,0 +1,15 @@
+arquivo = open("teste.txt", "t")
+
+frases = list()
+frases.append('teste1 \n')
+frases.append('teste2 \n')
+frases.append('teste3 \n')
+frases.append('teste4 \n')
+frases.append('teste5 \n')
+frases.append('teste6 \n')
+frases.append('teste7 \n')
+frases.append('teste8 \n')
+frases.append('teste9 \n')
+frases.append('teste10 \n')
+
+arquivo.writelines(frases)
